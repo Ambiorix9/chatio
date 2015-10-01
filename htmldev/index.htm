@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chat IO</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+	<div id="container">
+		<div id="namesWrapper">
+			<h2>Chat IO</h2>
+			<p>Create Username: </p>
+			<form action="post" id="usernameForm">
+				<input size="35" type="text" id="username">
+				<input  type="submit" value="Submit">
+			</form>
+		</div>
+		
+		<div id="mainWrapper">
+			<h2>Chat IO</h2>
+			<div id="chatWrapper">
+				<div id="chatWindow"></div>
+				<form action="post" id="messageForm">
+					<input size="35" type="text" id="message" placeholder="Type something...">
+					<input  type="submit" value="Post Message">					
+				</form>
+			</div>
+			
+			<div id="userWrapper">
+				<div id="users"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
